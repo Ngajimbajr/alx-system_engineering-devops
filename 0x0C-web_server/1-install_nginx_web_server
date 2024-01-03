@@ -28,4 +28,4 @@ echo "server {
 }" > /etc/nginx/sites-available/default
 
 # start nginx
-service nginx start
+sudo service nginx start
