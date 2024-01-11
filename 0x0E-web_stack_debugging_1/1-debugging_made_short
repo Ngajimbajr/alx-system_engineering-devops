@@ -7,4 +7,4 @@ ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 #restart nginx
 service nginx restart
 #terminates the first nginx process ID
-kill "$(grep 'nginx' | head -1)"
+kill "$(pgrep 'nginx' | head -1)"
